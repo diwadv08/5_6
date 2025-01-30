@@ -1,0 +1,26 @@
+/* h1{
+    color:transparent;
+    background:linear-gradient(green,blue);
+    background-clip:text;
+} */
+*{
+    font-family:karla;
+}
+.card{
+    display:flex;
+    /* start,end,center,space-between,space-around,space-evenly */
+    /* flex-direction:column; */
+    justify-content:center;
+    align-items:end; 
+    height:500px;
+    /* gap:30px; */
+    background:red;
+}
+img{
+    /* left right */
+    /* float:right;
+    border:4px solid blue;
+    padding:10px; */
+    /* opacity:1; */
+}
+
